@@ -1,0 +1,104 @@
+:root{
+  --blue: #10193A;
+  --light-blue: #999DFF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content{
+  width: 60%;
+  background-color: #eee;
+}
+
+.full-screen{
+  width: 100vw;
+  height: 100vh;
+}
+
+.aside{
+  width: 40%;
+}
+
+.padding-15{
+  padding: 15px;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-row{
+  display: flex;
+}
+
+
+.align-items-center{
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.text-width-90{
+  width: 90%;
+}
+
+.icon-med{
+  font-size: 1.5rem;
+}
+
+.gap-15{
+  gap: 15px;
+}
+
+.wrap-center{
+  align-content: center;
+}
+
+h1{
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+}
+
+h2{
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+h3{
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
